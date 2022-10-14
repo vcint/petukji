@@ -145,6 +145,9 @@ body{
 #carouselExampleSlidesOnly{
 	height:250px;
 	 }
+.active{
+	height:250px;
+	 }
   .media-txt h2{
     position: relative;
     top: 10px;
