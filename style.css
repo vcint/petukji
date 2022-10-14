@@ -29,7 +29,7 @@ body{
     height: 137px;
     width: 157px;
     background-repeat: no-repeat;
-    background-image: url('../logoptk.png');
+    background-image: url('/logoptk.png');
     background-size: 100% 100%;
     margin: 0 auto 0px;
     font-size: 34px;
