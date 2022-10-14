@@ -1,0 +1,408 @@
+
+body{
+    @import url(https://fonts.googleapis.com/css2?family=Montserrat&display=swap);
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.section1{
+    padding:10px;
+
+}
+.main-container{
+    width: 100%;    
+    border-radius: 20px;
+    overflow: hidden;
+
+}
+.logosection{
+    padding: 40px;
+    background-color: rgb(18 15 54);
+    text-align: center;
+}
+.logodwntxt{
+    font-size: 30px;
+    color: white;
+}
+.logosection   .logo{
+    display: block;
+    height: 137px;
+    width: 157px;
+    background-repeat: no-repeat;
+    background-image: url('../logoptk.png');
+    background-size: 100% 100%;
+    margin: 0 auto 0px;
+    font-size: 34px;
+
+}
+
+/* section2 text below the logo and about us */
+
+.petukdesc{
+    padding-top: 30px;
+
+}
+.petukdesc p{
+    font-size: 20px;
+    line-height: 28px;
+    color:#666666;
+    text-align: center;
+    margin-left: 11vw;
+    margin-right: 11vw;    
+}
+
+/* vision section */
+.ptk-vision p{
+    font-size: 20px;
+    line-height: 28px;
+    color:#666666;
+    text-align: center;
+    margin-left: 11vw;
+    margin-right: 11vw;   
+}
+
+.ptk-vision h2{
+    text-align: center;
+    margin-top: 3rem;
+}
+
+/* mission section */
+.ptk-mission p{
+    font-size: 20px;
+    line-height: 28px;
+    color:#666666;
+    text-align: center;
+    margin-left: 11vw;
+    margin-right: 11vw;   
+}
+.ptk-mission h2{
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.team-txt{
+    margin-top: 3rem;
+}
+
+/* team coarousel */
+.bootstrap-included{
+    margin: 20px;
+    border-radius: 15px;
+}
+.bootstrap-included h5{
+    color: rgb(244, 244, 23);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.bootstrap-included p{
+    color: rgb(4, 177, 4);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+
+}
+.carousel .carousel-item {
+    height: 400px;
+  }
+  
+  .item img {
+      position: absolute;
+      object-fit:cover;
+      top: 0;
+      left: 0;
+      min-height: 400px;
+  }
+  @media (max-width:991px) {
+    .section4{
+      margin-top: 50px;
+      padding: 10px;
+      background-image: url(petukjitoimage1.png);
+      margin-bottom: 30px;
+      size: 50%;
+    }
+    #gplay-dnl{
+      width: 40%;
+    }
+    .gplay-btn{
+      position: relative;
+      top: 250px;
+      left: 30vw;
+      z-index: 1;
+    }
+
+  }
+
+ @media (min-width:992px) {
+     /* Section 4 */
+  .section4{
+    margin-top: 50px;
+    padding: 10px;
+    background-image: url(petukjitoimage1.png);
+    background-size: cover;
+    margin-bottom: 30px;
+  }
+  .media-txt h2{
+    position: relative;
+    top: 10px;
+    left: 57px;
+    z-index: 1;
+    display: inline-block;
+    font-size: 60px;
+  }
+  .testimonial-apk{
+    display: flexbox;
+    width: 40%;
+    position: relative;
+    
+  }
+  .testimonial-apk img{
+    size: 30%;
+    display: block;
+  }
+  .testmonial-slider{
+    width: 60%;
+    position: relative;
+    top: -58px;
+    z-index: 1;
+    left: 30px;
+    
+        
+  }
+
+  .gplay-btn{
+   /* position: relative;
+   top: 6vw;
+   left: 25vw;
+   width:50%;
+   z-index: 1;  */
+   position: relative;
+    top: 340px;
+    left: 10vw;
+    
+  }
+ #gplay-dnl{
+  width: 40%;
+ }
+    
+}
+
+  /* Section 5 */
+h4{
+    text-align: center;
+}
+.feedback-form{
+  margin-top: 30px;
+}
+  /* footer Section */
+
+  footer{
+    background-color:rgb(18 15 54);
+    height: 8rem;
+    text-align: center;
+    padding-top: 5%;
+    
+  }
+  footer p{
+    color: white;
+   
+  }
+
+
+  /*form css  */
+
+  *,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* FONTS 
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif; */
+
+:root {
+  --primary-clr: #00b0f0;
+  --secondary-clr: #f1540f;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #555555;
+  margin: 0;
+  padding: 0;
+  font-size: 1.062rem;
+  line-height: 1.6;
+
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+p#break {
+  font-weight: lighter;
+  font-size: 0.85rem;
+  line-height: 1;
+
+  margin: 0;
+}
+
+.container {
+  width: 75%;
+  margin: auto;
+  max-width: 700px;
+}
+
+.card {
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.46);
+  border-radius: 10px;
+  margin-bottom: 2em;
+  padding: 2em;
+  /* Gives opacity to card without effecting children */
+  background: rgba(247, 247, 247, 0.95);
+}
+
+.message-title {
+  margin-top: 0;
+  padding-bottom: 0.75em;
+  border-bottom: solid 1px rgb(221, 221, 221);
+  text-align: left;
+}
+
+.message-container {
+  margin-bottom: 8em;
+  max-width: 600px;
+}
+
+form {
+  display: grid;
+
+  grid-template-columns: 90px auto auto;
+  grid-column-gap: 0.5em;
+  grid-row-gap: 2em;
+}
+
+label {
+  font-weight: bold;
+  grid-column: 1/2;
+}
+
+input {
+  /* May help keep right column responsive
+	width: cal(100%-200px); */
+  grid-column: 2/4;
+  height: 3em;
+  border: solid 3px var(--primary-clr);
+  border-radius: 4em;
+  padding: 0 1em;
+}
+
+input,
+textarea {
+  font-family: "Roboto", sans-serif;
+}
+
+textarea {
+  grid-column: 2/4;
+  border-radius: 2em;
+  border: solid 3px var(--primary-clr);
+  padding: 0.5em 1em;
+}
+
+input:focus,
+textarea:focus {
+  background: rgb(211, 230, 253);
+}
+
+.first-name {
+  grid-column: 2/3;
+}
+
+.last-name {
+  grid-column: 3/4;
+}
+
+.button-container {
+  grid-column: 1/4;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  
+}
+
+.button {
+  width: 100px;
+  background: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: .4s ease;
+}
+
+.button:hover {
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 1024px) {
+  /* Specific to background image */
+  img #background-img {
+    left: 50%;
+    left: -512px; /* 50% */
+  }
+}
+
+/* For Mobile */
+@media (max-width: 750px) {
+  .container {
+    width: 90%;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    grid-row-gap: 0;
+  }
+
+  .name {
+    grid-column-gap: 0;
+  }
+
+  input,
+  textarea {
+    margin: 1em 0;
+  }
+
+  p#break {
+    display: inline;
+  }
+  .first-name{
+    margin-bottom: 10px;
+  }
+}
+
+/* @media(max-width:992px){ */
+
+    /* .testimonial-apk{
+        display: block;
+    width: 100%;
+    position: relative;
+    }
+
+    .testmonial-slider{
+        /* width: 55%; */
+        /* position: block; */
+        /* top: -758px;
+        z-index: 1;
+        left: 30px; */
+    /* } */
+
