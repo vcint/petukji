@@ -140,6 +140,7 @@ body{
     background-image: url(petukjitoimage1.png);
     background-size: cover;
     margin-bottom: 30px;
+    height:683px;
   }
   .media-txt h2{
     position: relative;
@@ -165,6 +166,7 @@ body{
     top: -58px;
     z-index: 1;
     left: 30px;
+height:250px;
     
         
   }
